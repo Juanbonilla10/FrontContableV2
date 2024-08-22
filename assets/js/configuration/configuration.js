@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var token = localStorage.getItem("AuthAplication");
 
   // Url petición service
-  let urlEndPoint = "http://localhost:8080/api";
+  let urlEndPoint = "http://3.12.136.169:8083/api";
 
   if (token) {
     token = token.split(" ");

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let dato = localStorage.getItem("Bearer Token");
   
     // Url petición service
-    let urlEndPoint = "http://localhost:8080/login";
+    let urlEndPoint = "http://3.12.136.169:8083/login";
 
 
     $("#continueLogin").click(function(){
